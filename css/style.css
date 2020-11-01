@@ -1344,8 +1344,8 @@ p {
   background-color: white;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
-  background: url(../images/mushroom.png) no-repeat center center;
-  background-color: white;
+  background: url(../images/type-2.png) no-repeat center center;
+  /*background-color: white;*/
 }
 #fh5co-type h3.with-icon.icon-3:before, #fh5co-type h3.with-icon.icon-3::before {
   background: url(../images/tuna.png) no-repeat center center;
