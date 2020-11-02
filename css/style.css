@@ -15,7 +15,15 @@ body {
 body.fh5co-overflow {
   overflow-x: auto;
 }
-
+.instagram {
+    color: #DF248E;
+}
+.facebook {
+    color: #1D30C2;
+}
+.twitter {
+    color: rgb(113, 201, 248);
+}
 a {
   color: #fb6e14;
   -webkit-transition: 0.5s;
@@ -221,6 +229,10 @@ p {
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
     font-size: 100px;
+    padding-top: 100px;
+  }
+  #fh5co-home .flexslider .fh5co-text h2 a {
+    font-size: 35px;
   }
 }
 #fh5co-home .flexslider .fh5co-text h2 {
@@ -237,6 +249,9 @@ p {
   transition: 0.3s;
 }
 @media screen and (max-width: 768px) {
+  #fh5co-home {
+    min-height: 100%;
+  }
   #fh5co-home .flexslider .fh5co-text h2 {
     font-size: 20px;
   }
@@ -465,7 +480,7 @@ p {
 @media screen and (max-width: 768px) {
   #fh5co-about .fh5co-bg {
     width: 100%;
-    min-height: 300px;
+    /*min-height: 300px;*/
   }
 }
 
@@ -706,7 +721,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-v-col-2.fh5co-bg-img {
-    height: 200px;
+    height: 400px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -743,7 +758,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-h-row-2 > .fh5co-v-col-2.fh5co-bg-img {
-    height: 200px;
+    height: 320px;
   }
 }
 #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-h-row-2.fh5co-reversed .fh5co-bg-img {
@@ -758,6 +773,13 @@ p {
     right: inherit;
     top: inherit;
     bottom: inherit;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-h-row-2.fh5co-reversed .fh5co-bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 360px;
   }
 }
 
@@ -1091,7 +1113,7 @@ p {
   padding: 10px;
 }
 .fh5co-social li a i {
-  font-size: 30px;
+  font-size: 60px;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
